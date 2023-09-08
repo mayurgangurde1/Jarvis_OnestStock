@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\t\eclipse-workspace-3\JARVIS_OneStock\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 6 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickonProceedtoClientAgreement">ClickonProceedtoClientAgreement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickonSubmit">ClickonSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="EnterDateofBirth">EnterDateofBirth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="EnterPAN">EnterPAN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="clickoncheckbox1">clickoncheckbox1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="clickoncheckbox2">clickoncheckbox2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="AttemptQuestionnaries">AttemptQuestionnaries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickOnInvestNowButton">ClickOnInvestNowButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickOnPayNow">ClickOnPayNow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickOnStartNowButton">ClickOnStartNowButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickOnSubmitMyResponcesButton">ClickOnSubmitMyResponcesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickonContinueButton">ClickonContinueButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickonLoginwithPassword">ClickonLoginwithPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ClickonPayUsingupi">ClickonPayUsingupi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ConfirmResponces">ConfirmResponces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="ConfirmRiskProfile">ConfirmRiskProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="SelectCheckbox">SelectCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="VerifyLoginFnctionality">VerifyLoginFnctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="VerifyUpiIdfield">VerifyUpiIdfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="VerifyUpibutton">VerifyUpibutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="clickonPaynowButton">clickonPaynowButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="clickonpaybutton">clickonpaybutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="confirmforPayment">confirmforPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="enterupi">enterupi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.logintest.Testclass2" class="method navigator-link" hash-for-method="selectpaymentoption">selectpaymentoption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.logintest.Testclass2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonProceedtoClientAgreement">
+                  </a> <!-- ClickonProceedtoClientAgreement -->
+                  <span class="method-name">ClickonProceedtoClientAgreement</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[normalize-space()=&apos;Proceed to Client Agreement&apos;])[1]&quot;}
+  (Session info: chrome=116.0.5845.141)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49cc56664b27fc61c1e77e0a9a5084d7, findElement {using=xpath, value=(//button[normalize-space()=&apos;Proceed to Client Agreement&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63329/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49cc56664b27fc61c1e77e0a9a5084d7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.Jarvis.OneStock.Ckyc.ProceedtoClientAgreement(Ckyc.java:46)
+	at com.logintest.Testclass2.ClickonProceedtoClientAgreement(Testclass2.java:176)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonSubmit">
+                  </a> <!-- ClickonSubmit -->
+                  <span class="method-name">ClickonSubmit</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Submit for verification&apos;]&quot;}
+  (Session info: chrome=116.0.5845.141)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49cc56664b27fc61c1e77e0a9a5084d7, findElement {using=xpath, value=//button[text()=&apos;Submit for verification&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63329/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49cc56664b27fc61c1e77e0a9a5084d7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.Jarvis.OneStock.Ckyc.ClickonSubmit(Ckyc.java:43)
+	at com.logintest.Testclass2.ClickonSubmit(Testclass2.java:172)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterDateofBirth">
+                  </a> <!-- EnterDateofBirth -->
+                  <span class="method-name">EnterDateofBirth</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@aria-invalid=&apos;false&apos; and @placeholder=&apos;dd/mm/yyyy&apos;]&quot;}
+  (Session info: chrome=116.0.5845.141)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49cc56664b27fc61c1e77e0a9a5084d7, findElement {using=xpath, value=//input[@aria-invalid=&apos;false&apos; and @placeholder=&apos;dd/mm/yyyy&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63329/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49cc56664b27fc61c1e77e0a9a5084d7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
+	at com.Jarvis.OneStock.Ckyc.EnterDateofbirth(Ckyc.java:39)
+	at com.logintest.Testclass2.EnterDateofBirth(Testclass2.java:167)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterPAN">
+                  </a> <!-- EnterPAN -->
+                  <span class="method-name">EnterPAN</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@aria-invalid=&apos;false&apos; and @type=&apos;text&apos; and @maxlength=&apos;12&apos;]&quot;}
+  (Session info: chrome=116.0.5845.141)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49cc56664b27fc61c1e77e0a9a5084d7, findElement {using=xpath, value=//input[@aria-invalid=&apos;false&apos; and @type=&apos;text&apos; and @maxlength=&apos;12&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63329/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49cc56664b27fc61c1e77e0a9a5084d7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
+	at com.Jarvis.OneStock.Ckyc.EnterPan(Ckyc.java:35)
+	at com.logintest.Testclass2.EnterPAN(Testclass2.java:162)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickoncheckbox1">
+                  </a> <!-- clickoncheckbox1 -->
+                  <span class="method-name">clickoncheckbox1</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at com.Jarvis.OneStock.Ckyc.clickoncheckbox1(Ckyc.java:50)
+	at com.logintest.Testclass2.clickoncheckbox1(Testclass2.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickoncheckbox2">
+                  </a> <!-- clickoncheckbox2 -->
+                  <span class="method-name">clickoncheckbox2</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
+	at com.Jarvis.OneStock.Ckyc.clickoncheckbox2(Ckyc.java:66)
+	at com.logintest.Testclass2.clickoncheckbox2(Testclass2.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.logintest.Testclass2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AttemptQuestionnaries">
+                  </a> <!-- AttemptQuestionnaries -->
+                  <span class="method-name">AttemptQuestionnaries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnInvestNowButton">
+                  </a> <!-- ClickOnInvestNowButton -->
+                  <span class="method-name">ClickOnInvestNowButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnPayNow">
+                  </a> <!-- ClickOnPayNow -->
+                  <span class="method-name">ClickOnPayNow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnStartNowButton">
+                  </a> <!-- ClickOnStartNowButton -->
+                  <span class="method-name">ClickOnStartNowButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnSubmitMyResponcesButton">
+                  </a> <!-- ClickOnSubmitMyResponcesButton -->
+                  <span class="method-name">ClickOnSubmitMyResponcesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonContinueButton">
+                  </a> <!-- ClickonContinueButton -->
+                  <span class="method-name">ClickonContinueButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonLoginwithPassword">
+                  </a> <!-- ClickonLoginwithPassword -->
+                  <span class="method-name">ClickonLoginwithPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonPayUsingupi">
+                  </a> <!-- ClickonPayUsingupi -->
+                  <span class="method-name">ClickonPayUsingupi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmResponces">
+                  </a> <!-- ConfirmResponces -->
+                  <span class="method-name">ConfirmResponces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmRiskProfile">
+                  </a> <!-- ConfirmRiskProfile -->
+                  <span class="method-name">ConfirmRiskProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectCheckbox">
+                  </a> <!-- SelectCheckbox -->
+                  <span class="method-name">SelectCheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginFnctionality">
+                  </a> <!-- VerifyLoginFnctionality -->
+                  <span class="method-name">VerifyLoginFnctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUpiIdfield">
+                  </a> <!-- VerifyUpiIdfield -->
+                  <span class="method-name">VerifyUpiIdfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUpibutton">
+                  </a> <!-- VerifyUpibutton -->
+                  <span class="method-name">VerifyUpibutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonPaynowButton">
+                  </a> <!-- clickonPaynowButton -->
+                  <span class="method-name">clickonPaynowButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonpaybutton">
+                  </a> <!-- clickonpaybutton -->
+                  <span class="method-name">clickonpaybutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmforPayment">
+                  </a> <!-- confirmforPayment -->
+                  <span class="method-name">confirmforPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterupi">
+                  </a> <!-- enterupi -->
+                  <span class="method-name">enterupi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectpaymentoption">
+                  </a> <!-- selectpaymentoption -->
+                  <span class="method-name">selectpaymentoption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\t\eclipse-workspace-3\JARVIS_OneStock\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.logintest.Testclass2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AttemptQuestionnaries')
+data.setCell(0, 2, 'com.logintest.Testclass2')
+data.setCell(0, 3, 14249);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ClickOnPayNow')
+data.setCell(1, 2, 'com.logintest.Testclass2')
+data.setCell(1, 3, 10327);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickonContinueButton')
+data.setCell(2, 2, 'com.logintest.Testclass2')
+data.setCell(2, 3, 10016);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ConfirmRiskProfile')
+data.setCell(3, 2, 'com.logintest.Testclass2')
+data.setCell(3, 3, 8250);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickonPayUsingupi')
+data.setCell(4, 2, 'com.logintest.Testclass2')
+data.setCell(4, 3, 5468);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ConfirmResponces')
+data.setCell(5, 2, 'com.logintest.Testclass2')
+data.setCell(5, 3, 5179);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyLoginFnctionality')
+data.setCell(6, 2, 'com.logintest.Testclass2')
+data.setCell(6, 3, 5083);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickonpaybutton')
+data.setCell(7, 2, 'com.logintest.Testclass2')
+data.setCell(7, 3, 3347);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickOnInvestNowButton')
+data.setCell(8, 2, 'com.logintest.Testclass2')
+data.setCell(8, 3, 3306);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ClickOnStartNowButton')
+data.setCell(9, 2, 'com.logintest.Testclass2')
+data.setCell(9, 3, 3173);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickonPaynowButton')
+data.setCell(10, 2, 'com.logintest.Testclass2')
+data.setCell(10, 3, 3154);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'confirmforPayment')
+data.setCell(11, 2, 'com.logintest.Testclass2')
+data.setCell(11, 3, 2273);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'SelectCheckbox')
+data.setCell(12, 2, 'com.logintest.Testclass2')
+data.setCell(12, 3, 1198);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'selectpaymentoption')
+data.setCell(13, 2, 'com.logintest.Testclass2')
+data.setCell(13, 3, 433);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'enterupi')
+data.setCell(14, 2, 'com.logintest.Testclass2')
+data.setCell(14, 3, 356);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyUpiIdfield')
+data.setCell(15, 2, 'com.logintest.Testclass2')
+data.setCell(15, 3, 347);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ClickonLoginwithPassword')
+data.setCell(16, 2, 'com.logintest.Testclass2')
+data.setCell(16, 3, 257);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ClickOnSubmitMyResponcesButton')
+data.setCell(17, 2, 'com.logintest.Testclass2')
+data.setCell(17, 3, 200);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyUpibutton')
+data.setCell(18, 2, 'com.logintest.Testclass2')
+data.setCell(18, 3, 169);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'EnterPAN')
+data.setCell(19, 2, 'com.logintest.Testclass2')
+data.setCell(19, 3, 95);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ClickonProceedtoClientAgreement')
+data.setCell(20, 2, 'com.logintest.Testclass2')
+data.setCell(20, 3, 35);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ClickonSubmit')
+data.setCell(21, 2, 'com.logintest.Testclass2')
+data.setCell(21, 3, 33);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'EnterDateofBirth')
+data.setCell(22, 2, 'com.logintest.Testclass2')
+data.setCell(22, 3, 32);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'clickoncheckbox1')
+data.setCell(23, 2, 'com.logintest.Testclass2')
+data.setCell(23, 3, 10);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clickoncheckbox2')
+data.setCell(24, 2, 'com.logintest.Testclass2')
+data.setCell(24, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.logintest.Testclass2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">InitializeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">5979 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">pageobjects</span>
+                <span class="method-start">6488 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickonLoginwithPassword()[pri:1, instance:...)</span>
+                <span class="method-start">6612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickonLoginwithPassword</span>
+                <span class="method-start">6627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickonLoginwithPassword status=SUCCESS method=Testclass2.ClickonLoginwithPassword(...)</span>
+                <span class="method-start">6905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.VerifyLoginFnctionality()[pri:2, instance:c...)</span>
+                <span class="method-start">6934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginFnctionality</span>
+                <span class="method-start">6938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=VerifyLoginFnctionality status=SUCCESS method=Testclass2.VerifyLoginFnctionality()[...)</span>
+                <span class="method-start">12028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickOnInvestNowButton()[pri:3, instance:co...)</span>
+                <span class="method-start">12039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnInvestNowButton</span>
+                <span class="method-start">12041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickOnInvestNowButton status=SUCCESS method=Testclass2.ClickOnInvestNowButton()[pr...)</span>
+                <span class="method-start">15350 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickOnStartNowButton()[pri:4, instance:com...)</span>
+                <span class="method-start">15353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnStartNowButton</span>
+                <span class="method-start">15354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickOnStartNowButton status=SUCCESS method=Testclass2.ClickOnStartNowButton()[pri:...)</span>
+                <span class="method-start">18538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.AttemptQuestionnaries()[pri:5, instance:com...)</span>
+                <span class="method-start">18557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AttemptQuestionnaries</span>
+                <span class="method-start">18571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=AttemptQuestionnaries status=SUCCESS method=Testclass2.AttemptQuestionnaries()[pri:...)</span>
+                <span class="method-start">32828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickOnSubmitMyResponcesButton()[pri:6, ins...)</span>
+                <span class="method-start">32839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnSubmitMyResponcesButton</span>
+                <span class="method-start">32841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickOnSubmitMyResponcesButton status=SUCCESS method=Testclass2.ClickOnSubmitMyResp...)</span>
+                <span class="method-start">33051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ConfirmResponces()[pri:7, instance:com.logi...)</span>
+                <span class="method-start">33057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConfirmResponces</span>
+                <span class="method-start">33058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ConfirmResponces status=SUCCESS method=Testclass2.ConfirmResponces()[pri:7, instanc...)</span>
+                <span class="method-start">38258 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.SelectCheckbox()[pri:8, instance:com.logint...)</span>
+                <span class="method-start">38275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectCheckbox</span>
+                <span class="method-start">38278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=SelectCheckbox status=SUCCESS method=Testclass2.SelectCheckbox()[pri:8, instance:co...)</span>
+                <span class="method-start">39486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ConfirmRiskProfile()[pri:9, instance:com.lo...)</span>
+                <span class="method-start">39492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConfirmRiskProfile</span>
+                <span class="method-start">39497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ConfirmRiskProfile status=SUCCESS method=Testclass2.ConfirmRiskProfile()[pri:9, ins...)</span>
+                <span class="method-start">47750 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.clickonpaybutton()[pri:10, instance:com.log...)</span>
+                <span class="method-start">47755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonpaybutton</span>
+                <span class="method-start">47757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=clickonpaybutton status=SUCCESS method=Testclass2.clickonpaybutton()[pri:10, instan...)</span>
+                <span class="method-start">51108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.confirmforPayment()[pri:11, instance:com.lo...)</span>
+                <span class="method-start">51125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmforPayment</span>
+                <span class="method-start">51127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=confirmforPayment status=SUCCESS method=Testclass2.confirmforPayment()[pri:11, inst...)</span>
+                <span class="method-start">53404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.selectpaymentoption()[pri:12, instance:com....)</span>
+                <span class="method-start">53409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectpaymentoption</span>
+                <span class="method-start">53415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=selectpaymentoption status=SUCCESS method=Testclass2.selectpaymentoption()[pri:12, ...)</span>
+                <span class="method-start">53854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.enterupi()[pri:13, instance:com.logintest.T...)</span>
+                <span class="method-start">53868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterupi</span>
+                <span class="method-start">53871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=enterupi status=SUCCESS method=Testclass2.enterupi()[pri:13, instance:com.logintest...)</span>
+                <span class="method-start">54229 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.VerifyUpibutton()[pri:14, instance:com.logi...)</span>
+                <span class="method-start">54232 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUpibutton</span>
+                <span class="method-start">54234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=VerifyUpibutton status=SUCCESS method=Testclass2.VerifyUpibutton()[pri:14, instance...)</span>
+                <span class="method-start">54405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.clickonPaynowButton()[pri:15, instance:com....)</span>
+                <span class="method-start">54410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonPaynowButton</span>
+                <span class="method-start">54413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=clickonPaynowButton status=SUCCESS method=Testclass2.clickonPaynowButton()[pri:15, ...)</span>
+                <span class="method-start">57572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickonPayUsingupi()[pri:16, instance:com.l...)</span>
+                <span class="method-start">57580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickonPayUsingupi</span>
+                <span class="method-start">57585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickonPayUsingupi status=SUCCESS method=Testclass2.ClickonPayUsingupi()[pri:16, in...)</span>
+                <span class="method-start">63058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.VerifyUpiIdfield()[pri:17, instance:com.log...)</span>
+                <span class="method-start">63067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUpiIdfield</span>
+                <span class="method-start">63070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=VerifyUpiIdfield status=SUCCESS method=Testclass2.VerifyUpiIdfield()[pri:17, instan...)</span>
+                <span class="method-start">63419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickOnPayNow()[pri:18, instance:com.logint...)</span>
+                <span class="method-start">63421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnPayNow</span>
+                <span class="method-start">63423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickOnPayNow status=SUCCESS method=Testclass2.ClickOnPayNow()[pri:18, instance:com...)</span>
+                <span class="method-start">73753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickonContinueButton()[pri:19, instance:co...)</span>
+                <span class="method-start">73755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickonContinueButton</span>
+                <span class="method-start">73756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickonContinueButton status=SUCCESS method=Testclass2.ClickonContinueButton()[pri:...)</span>
+                <span class="method-start">83777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.EnterPAN()[pri:20, instance:com.logintest.T...)</span>
+                <span class="method-start">83782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EnterPAN</span>
+                <span class="method-start">83784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=EnterPAN status=FAILURE method=Testclass2.EnterPAN()[pri:20, instance:com.logintest...)</span>
+                <span class="method-start">83884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.EnterDateofBirth()[pri:21, instance:com.log...)</span>
+                <span class="method-start">84284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EnterDateofBirth</span>
+                <span class="method-start">84285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=EnterDateofBirth status=FAILURE method=Testclass2.EnterDateofBirth()[pri:21, instan...)</span>
+                <span class="method-start">84320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickonSubmit</span>
+                <span class="method-start">84580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickonSubmit()[pri:22, instance:com.logint...)</span>
+                <span class="method-start">84580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickonSubmit status=FAILURE method=Testclass2.ClickonSubmit()[pri:22, instance:com...)</span>
+                <span class="method-start">84615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.ClickonProceedtoClientAgreement()[pri:23, i...)</span>
+                <span class="method-start">85019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickonProceedtoClientAgreement</span>
+                <span class="method-start">85020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=ClickonProceedtoClientAgreement status=FAILURE method=Testclass2.ClickonProceedtoCl...)</span>
+                <span class="method-start">85061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.clickoncheckbox1()[pri:24, instance:com.log...)</span>
+                <span class="method-start">85553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickoncheckbox1</span>
+                <span class="method-start">85554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=clickoncheckbox1 status=FAILURE method=Testclass2.clickoncheckbox1()[pri:24, instan...)</span>
+                <span class="method-start">85567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=Testclass2.clickoncheckbox2()[pri:25, instance:com.log...)</span>
+                <span class="method-start">85898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickoncheckbox2</span>
+                <span class="method-start">85899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot([TestResult name=clickoncheckbox2 status=FAILURE method=Testclass2.clickoncheckbox2()[pri:25, instan...)</span>
+                <span class="method-start">85904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">86202 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">88028 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
